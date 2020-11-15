@@ -1,27 +1,26 @@
-for numero in range (1,5):
-    print(numero)
+for repeticao in range (0,10):
+    print('Olá, me chamo Juliana!')
+
+for numero in range (0,15):
+    print(numero+1)
+
+for pulo in range (0,10,2):
+    print (pulo)
+
+for contrario in range (10,0,-1):
+    print (contrario)
+
+inicio=int(input('Digite o início: '))
+fim=int(input('Digite o fim: '))
+pulo=int(input('Digite o número de casas que quer pular: '))
+for contador in range (inicio, fim+1, pulo):
+    print(contador)
 
 
-
-for nome in range (0,4):
-    print('O nome dela é Juliana')
-    print('O nome dele é Reinaldo')
-
-
-inicio= int(input('Diga valor inicial: '))
-fim= int(input('DIga o valor final: '))
-pulo= int(input('Pulando quantas unidades: '))
-for c in range (inicio, fim+1, pulo):
-    print(c)
-print('FIM')
-
-
-
-
-
-
-
-
-
-
+soma = 0
+for soma1 in range (0,3):
+    numero=int(input('Digite um número: '))
+    soma = soma + numero
+    #Também pode ser: soma+=numero
+print('A soma de todos esses números é igual a {}'.format (soma))
 

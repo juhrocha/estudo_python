@@ -1,20 +1,13 @@
-nome=input('Qual seu nome? ')
-print('Prazer em te conhecer {}!'.format(nome))
-
-
-n1=int(input('Digite um valor: '))
-n2=int(input('Digite outro valor: '))
-s1 = n1+n2
-s2 = n1-n2
-m = n1*n2
-d = n1/n2
-
-print('A soma vale {}'.format(n1+n2))
-print('A soma é {}, \n a subtração é {}, \n a multiplicação é {} e a divisão é {}'.format(s1, s2, m, d), end=' >>>>> ')
-print('oi')
-
-
-
+numero1=int(input('Digite um número: '))
+numero2=int(input('Digite outro número: '))
+soma=numero1+numero2
+subtracao=numero1-numero2
+multiplicacao=numero1*numero2
+divisao=numero1/numero2
+print('A soma entre os números {} e {} é igual a {}'.format(numero1,numero2,soma))
+print('A subtração entre os números {} e {} é igual a {}'.format(numero1,numero2,subtracao))
+print('A multiplicação entre os números {} e {} é igual a {}'.format(numero1,numero2,multiplicacao))
+print('A divisão entre os números {} e {} é igual a {}'.format(numero1,numero2,divisao))
 
 
 

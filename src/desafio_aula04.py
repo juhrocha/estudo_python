@@ -1,15 +1,8 @@
-n=int(input('Digite um valor: '))
-a=n-1
-s=n+1
-print('O valor {} é antecedido por {} e sucedido por {}' .format(n,a,s))
-
-m=int(input('Digite um valor: '))
-print('O valor {} é antecedido por {} e sucedido por {}'.format(m, (m-1), (m+1)))
-
-
-
-
-
+#Exercício 5 - Curso em vídeo
+numero1=int(input('Digite um número: '))
+antecessor=numero1-1
+sucessor=numero1+1
+print('O antecessor do número {} é {} e seu sucessor é {}'.format(numero1,antecessor,sucessor))
 
 
 

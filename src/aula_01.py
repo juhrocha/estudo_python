@@ -1,14 +1,9 @@
-print('Rei eh bobo')
+print ('Olá Mundo!')
+resp = str(input('Tudo bem? '))
+if resp == 'Bem':
+    print('Que bom!')
+else:
+     print('Que pena, o que houve? ')
 
-
-
-n1=int(input('Digite um numero: '))
-n2=int(input('Digite outro numero: '))
-s=n1+n2
-
-print('A soma de {} + {} eh igual a {}'.format(n1, n2, n3))
-
-
-
-
-
+print(7+4)
+print('7'+'4')

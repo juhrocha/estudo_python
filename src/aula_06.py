@@ -1,10 +1,9 @@
-n1=int(input('Digite um numero: '))
-n2=int(input('Digite outro numero: '))
-s=n1+n2
-print('A soma vale',s)
-print('A soma vale {}'.format(s))
-print('A soma de {} + {} e igual a {}'.format(n1, n2, s))
-
+numero1=int(input('Digite um número: '))
+numero2=int(input('Digite outro número: '))
+numero3=float(input('Digite um número decimal: '))
+soma=numero1+numero2+numero3
+print('A soma desses números é igual a {}'.format(soma))
+print('A soma entre {}, {} e {} é igual a {}'.format (numero1,numero2,numero3,soma))
 
 
 

@@ -1,22 +1,12 @@
 import math
-n = int(input('Digite um valor:'))
-r = math.sqrt(n)
-print('A raiz quadrada de {} é igual a {:.3f}'.format(n,r))
+numero=int(input('Digite um número: '))
+raiz_quadrada=math.sqrt(numero)
+print('A raiz quadrada do número {} é igual a {:.1f}'.format(numero,raiz_quadrada))
 
-from math import sqrt,floor
-n = int(input('Digite um valor:'))
-r=sqrt(n)
-print('A raiz quadrada de {} é igual a {}'.format(n,floor(r)))
-
-
-import random
-n1=random.randint(1,10)
-print(n1)
-
-
-
-
-
+from math import sqrt
+numero=int(input('Digite um número: '))
+raiz=sqrt(numero)
+print('A raiz quadrada do número {} é igual a {}'.format(numero,raiz))
 
 
 

@@ -7,21 +7,11 @@ else:
     print('Gostei do seu nome!')
 print('Prazer em te conhecer, {}'.format(nome))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+idade=int(input('Quantos anos você tem? '))
+if idade <= 18 :
+    print('Nossa, como você é jovem!')
+elif idade <= 60:
+    print('Você já é um adulto!')
+else:
+    print('Você já é um idoso!')
 
