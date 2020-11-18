@@ -1,7 +1,7 @@
-#numero=0
-#while numero!=50:
- #   numero=int(input('Digite um número: '))
-#print('FIM')
+numero=0
+while numero!=50:
+   numero=int(input('Digite um número: '))
+print('FIM')
 
 
 numero = soma = 0
@@ -10,8 +10,8 @@ while True:
     if numero==50:
         break
     soma+=numero
-#print('A soma vale {}' .format(s))
-print(f'A soma vale {soma}')
+print('A soma vale {}' .format(s))
+#Atualização do Python: print(f'A soma vale {soma}')
 
 
 
