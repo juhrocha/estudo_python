@@ -13,7 +13,7 @@ from time import sleep
 numero = contador = 0
 while True:
     numero=int(input('Digite o número que deseja saber a tabuada: '))
-    if numero <:
+    if numero < 0:
         break
     sleep(1)
     print('*'*11)
