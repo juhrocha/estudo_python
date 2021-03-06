@@ -1,20 +1,21 @@
-# Exercício 78 - Curso em Vídeo
-valor_num=list()
-maior = menor = 0
-for valor in range (0,5):
-    valor_num.append(int(input('Digite um valor: ')))
-    if valor == 0:
-        maior = menor = valor_num[valor]
-    else:
-        if valor_num[valor] > maior:
-            maior = valor_num[valor]
-        elif valor_num[valor] < menor:
-            menor = valor_num[valor]
-print(f'A sua lista de valores é {valor_num}')
-print(f'O maior número digitado foi {maior} e o menor número foi {menor}')
-for posição, indexador in enumerate(valor_num):
-    if indexador == maior:
-        print(f'O maior número está na posição {posição}')
-    elif indexador == menor:
-        print(f'O menor número está na posição {posição}')
-#REFAZER
+# # Exercício 78 - Curso em Vídeo
+# numero=list()
+# maior = 0
+# menor = 0
+# for valor in range (0,5):
+#     numero.append(int(input('Digite um número: ')))
+#     if valor == 0:
+#         maior = menor = numero[valor]
+#     else:
+#         if numero[valor] > maior:
+#             maior = numero[valor]
+#         elif numero[valor] < menor:
+#             menor = numero[valor]
+# print(f'Os números digitados foram: {numero}')
+# print(f'O maior número digitado foi {maior} e o menor número digitado foi {menor}')
+# for indice, posicao in enumerate(numero):
+#     if posicao == maior:
+#         print(f'O maior valor está na posição {indice}')
+# for indice, posicao in enumerate(numero):
+#     if posicao == menor:
+#         print(f'O menor valor está na posição {indice}')
