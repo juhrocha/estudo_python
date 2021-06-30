@@ -36,7 +36,7 @@ brasil = []
 for cont in range (0,3):
     estado['UF'] = str(input('UF: '))
     estado['sigla'] = str(input('Sigla: '))
-    brasil.append(estado.copy())
+    brasil.append(estado.copy()) # copia um dicionário em uma lista
 for cont in brasil:
     for key, value in estado.items():
         print(f' O {key} é {value}')
