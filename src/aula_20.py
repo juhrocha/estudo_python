@@ -1,37 +1,37 @@
-#def mostra_linha():
-#    print('*' * 30)
+def mostra_linha():
+   print('*' * 30)
 
 
-#mostra_linha()
-#print('Olá mundo')
-#mostra_linha()
+mostra_linha()
+print('Olá mundo')
+mostra_linha()
 
-#def linhas(txt):
-#    print('*'*30)
-#    print(txt)
-#    print('*'*30)
-
-
-#linhas('Meu nome é Juliana')
-
-#def soma(a, b, c):
-#    print(a + b + c)
-
-#soma(1, 2, 3)
-#soma(7, 0, 3)
-#soma(1, 2, 10)
-
-#def contador(*num):
-#    from time import sleep
-#    for valor in num:
-#        print(f'{valor} ',end=' ')
-#        sleep(0.5)
-#    print('FIM!')
+def linhas(txt):
+   print('*'*30)
+   print(txt)
+   print('*'*30)
 
 
-#contador(1, 2, 3, 4, 5, 6, 5, 9, 0)
-#contador(1, 2, 3)
-#contador(0)
+linhas('Meu nome é Juliana')
+
+def soma(a, b, c):
+   print(a + b + c)
+
+soma(1, 2, 3)
+soma(7, 0, 3)
+soma(1, 2, 10)
+
+def contador(*num):
+   from time import sleep
+   for valor in num:
+       print(f'{valor} ',end=' ')
+       sleep(0.5)
+   print('FIM!')
+
+
+contador(1, 2, 3, 4, 5, 6, 5, 9, 0)
+contador(1, 2, 3)
+contador(0)
 
 valores=[2, 3, 4, 5]
 def dobro(list):
