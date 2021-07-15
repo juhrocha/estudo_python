@@ -4,7 +4,7 @@ help(float)
 
 # Docstring
 def contador (inicio, fim, passo):
-    """Faz uma contagem e mostra na tela.
+    """Faz uma contagem e mostra na tela
     :param inicio: inicío da contagem;
     :param fim: final da contagem;
     :param passo: passo da contagem;
