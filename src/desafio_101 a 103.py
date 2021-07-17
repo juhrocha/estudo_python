@@ -1,13 +1,13 @@
 # Exercício 101 - Curso em Vídeo - 1ª tentativa
 # from datetime import date
-def voto (ano=0):
-    eleicao = date.today().year - ano
-    if eleicao >=18 and eleicao <= 70:
-        print('VOTO OBRIGATÓRIO')
-    elif eleicao < 16:
+ def voto (ano=0):
+     eleicao = date.today().year - ano
+     if eleicao >=18 and eleicao <= 70:
+         print('VOTO OBRIGATÓRIO')
+     elif eleicao < 16:
         print('NÃO VOTA')
-    elif eleicao >= 16 and eleicao > 70:
-        print('VOTO OPCIONAL')
+     elif eleicao >= 16 and eleicao > 70:
+         print('VOTO OPCIONAL')
 
 
 ano_nascimento = int(input('Digite o ano de nascimento: '))
@@ -18,20 +18,20 @@ from datetime import date
 
 
 def voto(ano=0):
-    idade = date.today().year - ano
-    if idade < 16:
-        return print(f'NÃO VOTA')
-    elif 16 >= idade < 18 or idade >= 70:
-        return print(f'VOTO OPCIONAL')
-    else:
-        return print(f'VOTO OBRIGATÓRIO')
+     idade = date.today().year - ano
+     if idade < 16:
+         return print(f'NÃO VOTA')
+     elif 16 >= idade < 18 or idade >= 70:
+         return print(f'VOTO OPCIONAL')
+     else:
+         return print(f'VOTO OBRIGATÓRIO')
 
 
 ano_nascimento = int(input('Digite o ano de nascimento: '))
 voto(ano_nascimento)
 
 
-# Exercício 102 - Curso em Vídeo
+Exercício 102 - Curso em Vídeo
 def fatorial(numero, show=False):
     """
     Programa retorna o fatorial do número indicado
@@ -49,21 +49,23 @@ def fatorial(numero, show=False):
                 print(' x ', end=' ')
             else:
                 print(' = ', end=' ')
-    return print(factorial)
+#    return print(factorial)
+    return factorial
 
+# fatorial(5, True)
+# fatorial(10, True)
+# fatorial(4)
+# help(fatorial)
+print(fatorial(5, True))
 
-fatorial(5, True)
-fatorial(10, True)
-fatorial(4)
-help(fatorial)
 
 # Exercício 103 - Curso em Vídeo
 def ficha (jogador='<desconhecido>', gol=0):
-    if jogador == '':
-        jogador = 'desconhecido'
-    if gol == '':
-        gol = 0
-    return print(f'O jogador {jogador} fez {gol} gol(s) no campeonato.')
+     if jogador == '':
+         jogador = 'desconhecido'
+     if gol == '':
+         gol = 0
+     return print(f'O jogador {jogador} fez {gol} gol(s) no campeonato.')
 
 
 nome_jogador = input('Nome do jogador: ')
