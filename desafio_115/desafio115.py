@@ -1,29 +1,37 @@
-#revisar
-from time import sleep
-from src import desafio_113
-
-
 def linha():
-    print('~' * 30)
+    print('~'*30)
 
 
-def titulo(mensagem):
-    print(mensagem.center(30))
-
-
-def menu(list):
-    sleep(0.5)
+def titulo(msg):
     linha()
+    print(msg.center(30))
+    linha()
+
+
+def leiaInt(mensagem):
+    numero = ''
+    try:
+        numero = int(input(mensagem))
+    except (TypeError, ValueError):
+        print('OPÇÃO INVÁLIDA: por favor digite um número inteiro válido!')
+    except(KeyboardInterrupt):
+        return 0
+    else:
+        return numero
+
+
+def menu(lista):
     titulo('MENU PRINCIPAL')
+    # print(lista)
+    contador = 1 # usando o for, não foi possível usar "count" e "item" então fazer o contador fora e a cada novo laço
+    # adc +1 a lista do contador, dessa forma é possível executar o meu dessa forma
+    for item in lista:
+        print(f'{contador}- {item}')
+        contador += 1
     linha()
-    sleep(1)
-    count = 1
-    for item in list:
-        print(f'{count}- {item}')
-        count += 1
-    linha()
-    sleep(1)
-    opcao = desafio_113.leiaInt('Sua opção: ')
-    sleep(1)
+    opcao = leiaInt('Sua Opção: ')
     return opcao
+
+
+
 
