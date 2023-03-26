@@ -5,11 +5,11 @@ def calcular():
     if opcao == 1:
         print(f'{num1} + {num2} = {num1 + num2}')
     elif opcao == 2:
-        print(f'{num1} - {num2} = {num1 + num2}')
+        print(f'{num1} - {num2} = {num1 - num2}')
     elif opcao == 3:
-        print(f'{num1} * {num2} = {num1 + num2}')
+        print(f'{num1} * {num2} = {num1 * num2}')
     elif opcao == 4:
-        print(f'{num1} / {num2} = {num1 + num2}')
+        print(f'{num1} / {num2} = {num1 / num2}')
     else:
         print('Opção digitada não localizada')
 
@@ -23,4 +23,5 @@ print('Lista de opções\n'
                      '4 - Divisão\n')
 sleep(1)
 calcular()
+
 
