@@ -1,3 +1,5 @@
+#Lambda é uma função "anônima", em que você pode declarar no meio do código ao contrário do tipo "def"
+
 #SIMPLIFICANDO FUNÇÕES
 # potencia = lambda numero: numero ** 2
 #
