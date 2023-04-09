@@ -1,4 +1,5 @@
-#Lambda é uma função "anônima", em que você pode declarar no meio do código ao contrário do tipo "def"
+"""Lambda é uma função "anônima", em que você pode declarar no meio do código ao contrário do tipo 'def'
+É usada por um curto período, normalmente junto às funções 'filter, map, reduce e sort""""
 
 #SIMPLIFICANDO FUNÇÕES
 # potencia = lambda numero: numero ** 2
