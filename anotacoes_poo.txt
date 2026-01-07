@@ -1,0 +1,34 @@
+O que é?
+POO - Programação orientada a objeto
+OOP - Object oriented program
+
+Características de sistemas POO:
+Confiabilidade - não preciso alterar n partes do sistema, contanto que eu siga as regras
+Oportunidade - ao dividir um sistema em partes, cada uma delas pode ser desenvolvida em paralelo
+Manutenível - atualização fácil do software, onde todos os benefícios otimizam as demais partes
+Extensível - sistema não deve ser estático, tudo deve mudar e crescer para permanecer útil
+Reutilizável - objetos que são criados para um sistema, podem ser aproveitados em outros sistemas
+Natural - o sistema é fácil de entender, dando maior atenção as funcionalidades e não a implementação'
+
+Classe
+Formato a ser seguido sempre que eu precisar fazer objetos do mesmo tipo, desde que tenham mesmas características
+Exemplo: uma mesma forma de bolo que pode assar bolos de chocolate e de cenoura
+
+Ao determinar uma classe eu devo pensar no objeto lá no futuro, e ele deve ter 3 coisas:
+- nome da classe
+- características da classe -> atríbuto
+- coisas que eu posso fazer -> método
+
+Exemplo:
+classe - assar_biscoito
+atríbuto - tamanho, massa, peso, cobertura
+método - cozinhar(), congelar()
+
+Instância
+Seguir o padrão definido na classe, para criar um objeto
+
+Objeto
+Coisa feita a partir de uma classe que pode ser descrita por meio de atributos, métodos e estado atual
+
+
+
