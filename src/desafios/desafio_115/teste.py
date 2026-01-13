@@ -1,6 +1,6 @@
-from desafio_115 import desafio115
+from src.desafios.desafio_115 import desafio115
 from time import sleep
-from desafio_115 import arquivo
+from src.desafios.desafio_115 import arquivo
 
 arq = '/home/juliana/Project/estudo_python/desafio_115/arquivo/exercicio_115b.txt'
 # arq = 'testanto.txt'

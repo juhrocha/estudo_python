@@ -30,5 +30,23 @@ Seguir o padrão definido na classe, para criar um objeto
 Objeto
 Coisa feita a partir de uma classe que pode ser descrita por meio de atributos, métodos e estado atual
 
+Variável simples é o aquilo que vc declara (e nomeia) que ocupará um espaço em seu computador.
+Para declarar uma variável é necessário nomeá-la (de acordo com algumas regras). Exemplo: cidade = 'São Paulo'
+
+Já variável composta é aquela que consegue armazenar mais valores. Aqui surgem as arrays Exemplo: cidades = ('São Paulo', 'Rio de Janeiro', 'Sorocaba').
+
+Uma variável que consegue guardar dando dados qto funções é o OBJETO.
+
+Objeto é similar de variável
+
+Estrutura obrigatória:
+
+- área de declaração de classes -> começa com class, nome deve começar com letra maiúscula, não esquecer os dois pontos
+class MinhaClasse:
+
+- área de declaração de atributos e métodos
+
+- área de declaração de objetos -> momento em que vc chama (ou instância) a classe criada, por isso se faz necessário o uso dos parênteses (bem como função).
+objeto = MinhaClasse()
 
 
