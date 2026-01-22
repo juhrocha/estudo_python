@@ -49,4 +49,10 @@ class MinhaClasse:
 - área de declaração de objetos -> momento em que vc chama (ou instância) a classe criada, por isso se faz necessário o uso dos parênteses (bem como função).
 objeto = MinhaClasse()
 
+Dunders:
+São métodos especiais que começam e terminam com dois sublinhados (ex: __init__) e permitem personalizar o comportamento de classes, fazendo com que objetos interajam com funções e operadores internos da linguagem
 
+Exemplos:
+__init__: Inicializa o objeto.
+__str__: Retorna uma representação em string legível (usado por print()).
+__len__: Define o comportamento para a função len().
