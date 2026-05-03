@@ -56,3 +56,29 @@ Exemplos:
 __init__: Inicializa o objeto.
 __str__: Retorna uma representação em string legível (usado por print()).
 __len__: Define o comportamento para a função len().
+
+Método = função
+Atributo = variável
+
+Pilares da POO:
+- Abstração: capacidade de simplificar as coisas e deixar o redundante para trás
+- Encapsulamento: proteção do seu código;
+- Herança: hierarquia dos dados
+- Polimorfismo: permite que vc execute coisas do mesmo nome de maneiras diferentes
+
+Herança:
+Relacionamento do tipo "é UM" entre itens gerais (ancestrais) e tipos mais específicos (descendentes) desses itens, que herdam atributos e métodos dos níveis superiores.
+
+Principais vantagens:
+- reutilização de código;
+- organização hierárquica;
+- facilidade de manutenção;
+- extensibilidade;
+- suporte ao polimorfismo.
+
+Em termos mais simples, herança permite receber características e comportamentos dos "pais", mas também criar suas próprias características.
+
+Herança é representada por uma seta para cima, com uma seta de triângulo vazado. A classe acima da seta é a superclasse (classe base, classe mãe, ancestral) e a abaixo, subclasse (classe derivada, descendente, classe filha).
+
+A subclasse pode ser superclasse de outras classes.
+
