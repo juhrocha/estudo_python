@@ -82,3 +82,28 @@ Herança é representada por uma seta para cima, com uma seta de triângulo vaza
 
 A subclasse pode ser superclasse de outras classes.
 
+Abstração:
+É a prática de ignorar o irrelevante e focar no estritamente essencial.
+Exemplo: você não precisa entender o funcionamento interno de uma geladeira para poder utilizá-la.
+
+Principais vantagens:
+- maior legebilidade;
+- padronização;
+- simplificação;
+- segurança.
+
+Classe abstrata é aquela que não serve para gerar objetos, e sim para servir de base para todas as subclasses criarem objetos.
+
+Exemplo: numa classe abstrata "controle remoto genérico", ela terá como funções básicas ligar, desligar, aumentar e diminuir volume, etc. Entretanto cada uma dessas funções será específica para cada controle remoto (diferente entre marcas, por exemplo).
+
+Essas funções (ligar, desligar, aumentar e diminuir volume) são chamadas de métodos abstratos.
+
+As classes que efetivamente vão virar objetos são chamadas "classe especializada".
+
+Método concreto é aquele que você determina na classe mãe, exemplo: na classe Pessoa, todos fazem aniversário, não há como pular aniversários ou fazer n vezes num ano.
+
+Método abstrato já é o método em que você "declara" na classe mãe, mas que poderá ser desenvolvido de formas diferentes entre as subclasses, exemplo: na classe Pessoa, todos estudam, entretanto, cada um deles pode estudar para alguma coisa diferente, como estudar para prova, estudar para um concurso, estudar por hobby.
+Esse método é representado por {abstract} no código, e chamamos também de interface pública. O método criado deve ser obrigatóriamente utilizado nas subclasses.
+
+DRY - Don't repeat yourself, não se repita
+ABC - Abstract base classes
