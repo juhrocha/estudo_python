@@ -1,4 +1,4 @@
-import aula_07_modularizacao
+from aulas_poo.aula_07 import aula_07_modularizacao
 
 a1 = aula_07_modularizacao.MinhaClasse()
 a1.nome = 'Ramon'

@@ -107,3 +107,37 @@ Esse método é representado por {abstract} no código, e chamamos também de in
 
 DRY - Don't repeat yourself, não se repita
 ABC - Abstract base classes
+
+Encapsulamento:
+
+O encapsulamento visa manter a integridade do sistema, protegendo o estado interno do objeto contra interferências externas. Exemplo prático: ao apertar um botão, ele executa X ação; você não precisa saber dos detalhes de funcionamento do objeto (botão), apenas necessita apertá-lo para a execução da ação. Isso evita problemas, durante a ação.
+
+Principais vantagens:
+- Segurança e controle;
+- Facilidade de manutenção;
+- Flexibilidade e reutilização;
+- Redução de efeitos colaterais.
+
+Para proteção do código, precisamos nos atentar:
+- Visibilidade de atributos;
+- Acesso aos dados protegidos.
+
+Existem 3 tipos de visibilidade:
+- público/public (+): visível em tudo o projeto, mesmo fora das classes;
+- protegido/protected (*): visível apenas no escopo do projeto (classes mãe e filhas);
+- privado/private (-): visível apenas na classe mãe;
+
+Consenting adults: liberdade com responsabilidade, no lugar de bloquear o acesso, o desenvolvedor ao ver a classificação de privacidade deve pensar "hmm, não devo mexer nisso".
+
+Os sinais de Python são diferenciados:
+- público/public (nada a frente do atríbuto);
+- protegido/protected (_);
+- privado/private (__);
+
+Existem duas maneiras de criar acessos aos dados encapsulados:
+- Uso de getters e setters;
+- Uso do decorador property.
+
+Getters e setters são conhecidos como métodos acessores de dados.
+
+todo retomar exercício da aula 11
