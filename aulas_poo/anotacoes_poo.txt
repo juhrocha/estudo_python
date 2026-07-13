@@ -140,4 +140,11 @@ Existem duas maneiras de criar acessos aos dados encapsulados:
 
 Getters e setters são conhecidos como métodos acessores de dados.
 
-todo retomar exercício da aula 11
+Estrutura básica de um arquivo main ("arquivo executor"):
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()
+
+Técnica @property: técnica que não é tão difundida, mas na opinião do Guanabara é mais elegante.

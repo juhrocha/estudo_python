@@ -1,5 +1,5 @@
-from aulas_poo import aula_11
-from aulas_poo.aula_11 import continuacao_aula_08
+from aulas_poo.aula_11.ex_01 import continuacao_aula_08
+
 
 def main ():
     c1 = continuacao_aula_08.ContaBancaria(213, "João", 5000)
